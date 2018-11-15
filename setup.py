@@ -4,7 +4,7 @@
 import cx_Freeze
 executable=[cx_Freeze.Executable("pygame-invaders.py")]
 cx_Freeze.setup(
-	name="Space invaders!!!",
+	name="Space invaders!",
 	options={"build.exe":{"packages":["pygame","time","random","sys","os"],
     "included_files":["stars.png","shoot.wav",
                           "invaderkilled.wav",
